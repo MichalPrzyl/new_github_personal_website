@@ -1,0 +1,29 @@
+.media-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-self: flex-end; */
+    /* align-self: flex-end; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 90vh;
+    
+}
+
+.media-icon{
+    /* border: 1px solid black; */
+    width: 20%;
+    
+}
+.media-icon:hover img{
+    filter: none;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.media-icon img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+
